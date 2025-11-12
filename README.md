@@ -23,8 +23,8 @@ __Clone the repository and install the necessary libraries within a virtual envi
 3. ```cd <WeatherApp>```
 
 ### Create and activate a virtual environment
-```python -m venv venv```
-```source venv/bin/activate  # Use .\venv\Scripts\activate on Windows```
+1. ```python -m venv venv```
+2. ```source venv/bin/activate  # Use .\venv\Scripts\activate on Windows```
 
 ## Install required libraries (PyQt5 and requests)
 ```pip install -r requirements.txt```
