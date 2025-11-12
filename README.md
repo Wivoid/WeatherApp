@@ -1,5 +1,5 @@
-☁️ Simple Weather App (PyQt5)
-This is a desktop weather forecasting application built using Python and PyQt5. This project serves as my final work, concluding the course of studying the PyQt5 framework. In my  edu repository, you can find a detailed review of the entire development process and other learning materials.
+# ☁️ Simple Weather App (PyQt5)
+This is a desktop weather forecasting application built using Python and PyQt5. This project serves as my final work, concluding the course of studying the PyQt5 framework. In my  edu     repository, you can find a detailed review of the entire development process and other learning materials.
 
 ## 🚀 Getting StartedTo run the application, you must install dependencies and configure the OpenWeatherMap API key.
 
