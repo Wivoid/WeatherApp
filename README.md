@@ -11,24 +11,24 @@ The application relies on external weather data, requiring a unique API key.
      * Create a free account.
      * Copy the generated API key from the "API keys" section of your profile.
   
-## Installation and Setup
+### Installation and Setup
 Clone the repository and install the necessary libraries within a virtual environment.
-```# Clone the project```
-```git clone https://github.com/Wivoid/WeatherApp```
-```cd <WeatherApp>```
-## Create and activate a virtual environment
+```# Clone the project
+git clone https://github.com/Wivoid/WeatherApp
+cd <WeatherApp>```
+### Create and activate a virtual environment
 ```python -m venv venv```
 ```source venv/bin/activate  # Use .\venv\Scripts\activate on Windows```
 
 ## Install required libraries (PyQt5 and requests)
 ```pip install -r requirements.txt```
 
-## 3.API Key Configuration
+## 3. API Key Configuration
 The application will not function until you insert your personal key.
 * Open the main application file `weather_app.py`.
 * Locate the `get_weather` function (the method responsible for data requests).
 * Replace the placeholder with your actual OpenWeatherMap key:
   ```api_key = 'YOUR_API_KEY_HERE' # Paste your actual key here```
-## Running the Application
+## 4. Running the Application
 With your environment active and the key configured, launch the application:
 ```python weather_app.py```
