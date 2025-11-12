@@ -18,9 +18,10 @@ __The application relies on external weather data, requiring a unique API key.__
 ### Installation and Setup
 __Clone the repository and install the necessary libraries within a virtual environment.__
 
-```# Clone the project```
-```git clone https://github.com/Wivoid/WeatherApp```
-```cd <WeatherApp>```
+1. ```# Clone the project```
+2. ```git clone https://github.com/Wivoid/WeatherApp```
+3. ```cd <WeatherApp>```
+
 ### Create and activate a virtual environment
 ```python -m venv venv```
 ```source venv/bin/activate  # Use .\venv\Scripts\activate on Windows```
