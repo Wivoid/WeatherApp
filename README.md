@@ -1,7 +1,10 @@
 # ☁️ Simple Weather App (PyQt5)
-This is a desktop weather forecasting application built using Python and PyQt5. This project serves as my final work, concluding the course of studying the PyQt5 framework. In my  edu     repository, you can find a detailed review of the entire development process and other learning materials.
+This is a desktop weather forecasting application built using Python and PyQt5.
+This project serves as my final work, concluding the course of studying the PyQt5 framework.
+In my [edu repository](https://github.com/Wivoid/edu), you can find a detailed review of the entire development process and other learning materials.
 
-## 🚀 Getting StartedTo run the application, you must install dependencies and configure the OpenWeatherMap API key.
+## 🚀 Getting Started
+To run the application, you must install dependencies and configure the OpenWeatherMap API key.
 
 ### 1. Requirements and API Key Acquisition
 The application relies on external weather data, requiring a unique API key.
@@ -13,9 +16,10 @@ The application relies on external weather data, requiring a unique API key.
   
 ### Installation and Setup
 Clone the repository and install the necessary libraries within a virtual environment.
-```# Clone the project
-git clone https://github.com/Wivoid/WeatherApp
-cd <WeatherApp>```
+
+```# Clone the project```
+```git clone https://github.com/Wivoid/WeatherApp```
+```cd <WeatherApp>```
 ### Create and activate a virtual environment
 ```python -m venv venv```
 ```source venv/bin/activate  # Use .\venv\Scripts\activate on Windows```
@@ -25,10 +29,14 @@ cd <WeatherApp>```
 
 ## 3. API Key Configuration
 The application will not function until you insert your personal key.
+
 * Open the main application file `weather_app.py`.
 * Locate the `get_weather` function (the method responsible for data requests).
 * Replace the placeholder with your actual OpenWeatherMap key:
+  
   ```api_key = 'YOUR_API_KEY_HERE' # Paste your actual key here```
+
 ## 4. Running the Application
 With your environment active and the key configured, launch the application:
+
 ```python weather_app.py```
