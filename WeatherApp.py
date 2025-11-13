@@ -54,25 +54,25 @@ class MainWindow(QWidget):
         self.description_label.setAlignment(Qt.AlignCenter)
 
 
-        story_id = QFontDatabase.addApplicationFont('PyQt5/Lessons/material/StoryScript-Regular.ttf')
+        story_id = QFontDatabase.addApplicationFont('material/StoryScript-Regular.ttf')
         story_family = QFontDatabase.applicationFontFamilies(story_id)[0]
         story_font = QFont(story_family, 30)
         self.type_label.setFont(story_font)
 
-        unkempt_id = QFontDatabase.addApplicationFont('PyQt5/Lessons/material/Unkempt-Bold.ttf')
+        unkempt_id = QFontDatabase.addApplicationFont('material/Unkempt-Bold.ttf')
         unkempt_family = QFontDatabase.applicationFontFamilies(unkempt_id)[0]
         unkempt_font = QFont(unkempt_family, 30)
         self.city_input.setFont(unkempt_font)
         self.submit_button.setFont(unkempt_font)
         self.temp_change.setFont(unkempt_font) 
 
-        overlockreg = QFontDatabase.addApplicationFont('PyQt5/Lessons/material/Overlock-BoldItalic.ttf')
+        overlockreg = QFontDatabase.addApplicationFont('material/Overlock-BoldItalic.ttf')
         overlockreg_family = QFontDatabase.applicationFontFamilies(overlockreg)[0]
         overlockreg_font = QFont(overlockreg_family, 30)
         self.city_label.setFont(overlockreg_font)
         self.description_label.setFont(overlockreg_font)
 
-        overlockbld = QFontDatabase.addApplicationFont('PyQt5/Lessons/material/Overlock-Black.ttf')
+        overlockbld = QFontDatabase.addApplicationFont('material/Overlock-Black.ttf')
         overlockbld_family = QFontDatabase.applicationFontFamilies(overlockbld)[0]
         overlockbld_font = QFont(overlockbld_family, 30)
         self.city_label.setFont(overlockbld_font)
